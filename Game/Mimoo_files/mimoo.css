@@ -1,0 +1,321 @@
+.main {
+  height: 3325px;
+  background: #161717 url(../images/mimoo/bg.jpg) 50% 0 no-repeat; }
+
+.banner {
+  position: relative;
+  height: 702px;
+  background: url(../images/mimoo/header.jpg) 50% 0 no-repeat; }
+  .banner .role {
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    margin-left: -925px; }
+
+.news {
+  margin-bottom: 30px; }
+  .news .hd {
+    margin: 0 0 5px 85px; }
+  .news .bd {
+    width: 1154px;
+    height: 368px;
+    margin: 0 auto;
+    background: url(../images/mimoo/news_bg.png) no-repeat; }
+  .news-slider {
+    float: left;
+    width: 473px;
+    height: 286px;
+    margin: 45px 0 0 28px !important; }
+    .news-slider .slider-nav {
+      text-align: right; }
+  .news-box {
+    position: relative;
+    float: right;
+    width: 595px;
+    margin: 40px 52px 0 0; }
+    .news-box .more {
+      position: absolute;
+      top: 18px;
+      right: -20px;
+      width: 16px;
+      height: 16px;
+      display: block;
+      background: url(../images/more.png) no-repeat;
+      -webkit-transition: all .3s ease;
+      transition: all .3s ease; }
+      .news-box .more:hover {
+        -webkit-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+                transform: rotate(180deg); }
+  .news-tabs li {
+    float: left;
+    width: 292px;
+    height: 52px;
+    margin-right: 3px;
+    font-size: 22px;
+    line-height: 50px;
+    text-align: center;
+    color: #3e86a4;
+    background: url(../images/mimoo/news_tab.png) no-repeat;
+    cursor: pointer;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease; }
+    .news-tabs li.active {
+      color: #fff;
+      background-image: url(../images/mimoo/news_tab_on.png); }
+  .news-list {
+    color: #ccc; }
+    .news-list a {
+      color: #ccc; }
+      .news-list a:hover {
+        color: #f00; }
+    .news-list .date {
+      color: #999;
+      float: right; }
+    .news-list li {
+      margin: 0 10px 0 20px;
+      line-height: 40px;
+      border-bottom: 1px solid #949494; }
+      .news-list li:last-child {
+        border-bottom: none; }
+
+.screen .hd {
+  margin: 0 0 5px 85px; }
+
+.screen .bd {
+  position: relative;
+  width: 1081px;
+  height: 766px;
+  margin: 0 auto;
+  padding-top: 35px;
+  background: url(../images/mimoo/screen_bg.png) no-repeat; }
+  .screen .bd .button-prev, .screen .bd .button-next {
+    position: absolute;
+    top: 240px;
+    z-index: 50;
+    display: block;
+    width: 59px;
+    height: 89px;
+    cursor: pointer; }
+  .screen .bd .button-prev {
+    left: -65px;
+    background: url(../images/mimoo/arrow_left.png) no-repeat; }
+  .screen .bd .button-next {
+    right: -65px;
+    background: url(../images/mimoo/arrow_right.png) no-repeat; }
+  .screen .bd .swiper-button-disabled {
+    opacity: .3;
+    filter: alpha(opacity=30); }
+
+.screen-slider {
+  width: 1040px;
+  height: 550px;
+  margin-bottom: 5px;
+  border: 1px solid #333; }
+
+.screen-thumbs {
+  width: 1040px;
+  height: 142px; }
+  .screen-thumbs .swiper-slide {
+    position: relative;
+    width: 240px;
+    height: 140px;
+    border: 1px solid #404040;
+    overflow: hidden; }
+    .screen-thumbs .swiper-slide:hover img {
+      -webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+              transform: scale(1.1); }
+    .screen-thumbs .swiper-slide .v {
+      position: absolute;
+      top: 34px;
+      left: 84px;
+      z-index: 5;
+      width: 72px;
+      height: 72px;
+      background: url(../images/dmcq/icon_video.png) no-repeat; }
+    .screen-thumbs .swiper-slide img {
+      -webkit-transition: all .3s ease;
+      transition: all .3s ease; }
+  .screen-thumbs .swiper-slide-active {
+    border-color: #9c6c27; }
+
+.video .hd {
+  margin: 0 0 10px 85px; }
+
+.video .bd {
+  position: relative;
+  width: 1081px;
+  height: 500px;
+  margin: 0 auto;
+  padding-top: 60px;
+  background: url(../images/mimoo/video_bg.png) 0 0 no-repeat; }
+  .video .bd .button-prev, .video .bd .button-next {
+    position: absolute;
+    top: 240px;
+    z-index: 50;
+    display: block;
+    width: 59px;
+    height: 89px;
+    cursor: pointer; }
+  .video .bd .button-prev {
+    left: -65px;
+    background: url(../images/mimoo/arrow_left.png) no-repeat; }
+  .video .bd .button-next {
+    right: -65px;
+    background: url(../images/mimoo/arrow_right.png) no-repeat; }
+  .video .bd .swiper-button-disabled {
+    opacity: .3;
+    filter: alpha(opacity=30); }
+
+.video-slider {
+  margin: 0 40px !important; }
+  .video-slider .swiper-slide {
+    width: 316px;
+    height: 195px;
+    margin-bottom: 20px; }
+    .video-slider .swiper-slide .pic {
+      position: relative;
+      overflow: hidden;
+      width: 316px;
+      height: 166px;
+      margin-bottom: 8px; }
+      .video-slider .swiper-slide .pic img {
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease; }
+      .video-slider .swiper-slide .pic:hover img {
+        -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+                transform: scale(1.1); }
+      .video-slider .swiper-slide .pic .v {
+        position: absolute;
+        top: 47px;
+        left: 122px;
+        z-index: 5;
+        width: 72px;
+        height: 72px;
+        background: url(../images/mimoo/icon_video.png) no-repeat; }
+    .video-slider .swiper-slide .title {
+      color: #999;
+      text-align: center; }
+
+.introduce {
+  margin-bottom: 50px; }
+  .introduce-tab {
+    text-align: center; }
+    .introduce-tab span {
+      display: inline-block;
+      width: 242px;
+      height: 52px;
+      margin: 0 20px;
+      font-size: 24px;
+      line-height: 50px;
+      text-align: center;
+      color: #3e86a4;
+      background: url(../images/mimoo/role_tab.png) no-repeat;
+      cursor: pointer;
+      -webkit-transition: all .3s ease;
+      transition: all .3s ease; }
+      .introduce-tab span.active {
+        color: #fff;
+        background-image: url(../images/mimoo/role_tab_on.png); }
+  .introduce .bd {
+    position: relative;
+    width: 1082px;
+    height: 544px;
+    margin: 0 auto;
+    background: url(../images/mimoo/role_bg.png) 0 0 no-repeat; }
+  .introduce .role-tabs span {
+    position: absolute;
+    display: block;
+    width: 151px;
+    height: 134px;
+    cursor: pointer;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease; }
+  .introduce .role-tabs .t1 {
+    top: 55px;
+    left: 32px;
+    background: url(../images/mimoo/role/role1.png) no-repeat; }
+    .introduce .role-tabs .t1.active {
+      background-image: url(../images/mimoo/role/role1_on.png); }
+  .introduce .role-tabs .t2 {
+    top: 118px;
+    left: 142px;
+    background: url(../images/mimoo/role/role2.png) no-repeat; }
+    .introduce .role-tabs .t2.active {
+      background-image: url(../images/mimoo/role/role2_on.png); }
+  .introduce .role-tabs .t3 {
+    top: 182px;
+    left: 32px;
+    background: url(../images/mimoo/role/role3.png) no-repeat; }
+    .introduce .role-tabs .t3.active {
+      background-image: url(../images/mimoo/role/role3_on.png); }
+  .introduce .role-tabs .t4 {
+    top: 244px;
+    left: 142px;
+    background: url(../images/mimoo/role/role4.png) no-repeat; }
+    .introduce .role-tabs .t4.active {
+      background-image: url(../images/mimoo/role/role4_on.png); }
+  .introduce .role-tabs .t5 {
+    top: 308px;
+    left: 32px;
+    background: url(../images/mimoo/role/role5.png) no-repeat; }
+    .introduce .role-tabs .t5.active {
+      background-image: url(../images/mimoo/role/role5_on.png); }
+  .introduce .role-tabs .t6 {
+    top: 370px;
+    left: 142px;
+    background: url(../images/mimoo/role/role6.png) no-repeat; }
+    .introduce .role-tabs .t6.active {
+      background-image: url(../images/mimoo/role/role6_on.png); }
+  .introduce .role-con {
+    display: none; }
+    .introduce .role-con .info {
+      position: absolute;
+      top: 85px;
+      left: 335px;
+      width: 300px;
+      font-size: 20px;
+      color: #eee;
+      -webkit-animation: t2s .5s ease both;
+              animation: t2s .5s ease both; }
+      .introduce .role-con .info h3 {
+        margin: 0 0 10px 55px;
+        font-size: 30px; }
+      .introduce .role-con .info span {
+        margin-right: 15px; }
+    .introduce .role-con img {
+      position: absolute;
+      -webkit-animation: r2s .5s ease both;
+              animation: r2s .5s ease both; }
+    .introduce .role-con .pic1 {
+      top: 50px;
+      left: 415px; }
+    .introduce .role-con .pic2 {
+      top: 50px;
+      left: 570px; }
+    .introduce .role-con .pic3 {
+      top: 50px;
+      left: 440px; }
+    .introduce .role-con .pic4 {
+      top: 50px;
+      left: 570px; }
+    .introduce .role-con .pic5 {
+      top: 90px;
+      left: 490px; }
+    .introduce .role-con .pic6 {
+      top: 6px;
+      left: 505px; }
+  .introduce .game-info {
+    padding: 45px 0 0 30px; }
+    .introduce .game-info-con {
+      width: 1020px;
+      height: 464px;
+      background: url(../images/mimoo/game_introduce.jpg) 0 0 no-repeat; }
+    .introduce .game-info-text {
+      padding: 50px 36px 0 576px;
+      font-size: 18px;
+      line-height: 200%;
+      text-align: justify;
+      text-indent: 2em; }

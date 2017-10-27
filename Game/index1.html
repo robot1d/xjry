@@ -1,0 +1,98 @@
+﻿<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>中国神游  |  坚挺持久</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <script src="TemplateData/UnityProgress.js"></script>
+    <style type="text/css">
+        <!--
+        body {
+            font-family: Helvetica, Verdana, Arial, sans-serif;
+            background-color: white;
+            color: black;
+            text-align: center;
+        }
+
+        a:link, a:visited {
+            color: #000;
+        }
+
+        a:active, a:hover {
+            color: #666;
+        }
+
+        p.header {
+            font-size: small;
+        }
+
+            p.header span {
+                font-weight: bold;
+            }
+
+        p.footer {
+            font-size: x-small;
+        }
+
+        div.content {
+            margin: auto;
+            width: 960px;
+        }
+
+        div.broken,
+        div.missing {
+            margin: auto;
+            position: relative;
+            top: 50%;
+            width: 193px;
+        }
+
+            div.broken a,
+            div.missing a {
+                height: 63px;
+                position: relative;
+                top: -31px;
+            }
+
+            div.broken img,
+            div.missing img {
+                border-width: 0px;
+            }
+
+        div.broken {
+            display: none;
+        }
+
+        div#unityPlayer {
+            cursor: default;
+            height: 600px;
+            width: 960px;
+        }
+        -->
+    </style>
+</head>
+<body>
+    <div class="template-wrap clear">
+        <h1>星际荣耀</h1>
+        <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+        <div class="logo"></div>
+        <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+        <div class="title">中国神游</div>
+    </div>
+    <script type='text/javascript'>
+        var Module = {
+            TOTAL_MEMORY: 268435456,
+            errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+            compatibilitycheck: null,
+            dataUrl: "Release/Game.data",
+            codeUrl: "Release/Game.js",
+            memUrl: "Release/Game.mem",
+
+        };
+    </script>
+    <script src="Release/UnityLoader.js"></script>
+
+</body>
+</html>
